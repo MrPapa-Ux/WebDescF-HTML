@@ -190,7 +190,7 @@
       <br />
       <fieldset>
         <legend>Parent's Information</legend>
-        <table border="1">
+        <table>
           <tr>
             <td>Father's Name</td>
             <td colspan="2">
@@ -267,7 +267,7 @@
         <table>
           <tr>
             <td>Full Name</td>
-            <td>
+            <td colspan="4">
               :
               <input type="text" name="highschool" id="highschool" size="55" />
             </td>
@@ -278,10 +278,14 @@
               :
               <input type="text" name="graduation_year" id="graduation_year" />
             </td>
+            <td>Email</td>
+            <td>: <input type="text" , name="eemail" id="eemail" /></td>
           </tr>
           <tr>
             <td>Home Phone Number</td>
             <td>: <input type="tel" name="homephone" id="homephone" /></td>
+            <td>Mobile Number</td>
+            <td>: <input type="tel" name="anphone" id="anphone" /></td>
           </tr>
           <tr>
             <td>Education</td>
@@ -294,6 +298,16 @@
                 <option value="bachelor">Bachelor</option>
                 <option value="master">Master</option>
                 <option value="doctor">Doctor</option>
+              </select>
+            </td>
+
+            <td>Religion</td>
+            <td>
+              :
+              <select name="religion" id="religion">
+                <option>SDA</option>
+                <option>Muslim</option>
+                <option>Buddha</option>
               </select>
             </td>
           </tr>
