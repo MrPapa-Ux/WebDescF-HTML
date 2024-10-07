@@ -19,7 +19,6 @@
         </p>
         <hr />
       </nav>
-      <hr />
       <h1>UNKLAB Registration Form for New Student</h1>
       <p>
         Registration Number:
@@ -74,7 +73,7 @@
       </p>
       <fieldset>
         <legend>Personal Information</legend>
-        <table>
+        <table border="1">
           <tr>
             <td>Full Name</td>
             <td colspan="2">
@@ -144,6 +143,9 @@
           </tr>
         </table>
       </fieldset>
+      <br />
+      <br />
+      <br />
       <fieldset>
         <legend>School Information</legend>
         <table>
@@ -170,6 +172,7 @@
                 name="graduation_school"
                 id="graduation_school"
               />
+              Telephone Number : <input type="tel" name="phone" id="phone" />
             </td>
           </tr>
           <tr>
@@ -182,18 +185,22 @@
           </tr>
         </table>
       </fieldset>
+      <br />
+      <br />
+      <br />
       <fieldset>
         <legend>Parent's Information</legend>
-        <table>
+        <table border="1">
           <tr>
             <td>Father's Name</td>
             <td colspan="2">
-              : <input type="text" name="father" id="father" size="75" />
+              : <input type="text" name="father" id="father" size="50" />
             </td>
           </tr>
           <tr>
             <td>Mobile Number</td>
             <td>: <input type="tel" name="mobile" id="mobile" /></td>
+            <td>Email : <input type="email" name="email" id="email" /></td>
           </tr>
           <tr>
             <td>Education</td>
@@ -207,9 +214,42 @@
                 <option value="master">Master</option>
                 <option value="doctor">Doctor</option>
               </select>
-              Religion
             </td>
             <td>
+              Religion:
+              <select name="religion" id="religion">
+                <option>SDA</option>
+                <option>Muslim</option>
+                <option>Buddha</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Mother's Name</td>
+            <td colspan="2">
+              : <input type="text" name="father" id="father" size="50" />
+            </td>
+          </tr>
+          <tr>
+            <td>Mobile Number</td>
+            <td>: <input type="tel" name="mobile" id="mobile" /></td>
+            <td>Email : <input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td>Education</td>
+            <td>
+              :<select>
+                <option value="elementary">Elementary</option>
+                <option value="junior">Junior High School</option>
+                <option value="senior">Senior High School</option>
+                <option value="diploma">Diploma</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option value="doctor">Doctor</option>
+              </select>
+            </td>
+            <td>
+              Religion:
               <select name="religion" id="religion">
                 <option>SDA</option>
                 <option>Muslim</option>
@@ -219,8 +259,48 @@
           </tr>
         </table>
       </fieldset>
+      <br />
+      <br />
+      <br />
+      <fieldset>
+        <legend>Parent Carer's Information</legend>
+        <table>
+          <tr>
+            <td>Full Name</td>
+            <td>
+              :
+              <input type="text" name="highschool" id="highschool" size="55" />
+            </td>
+          </tr>
+          <tr>
+            <td>Famliy Relation</td>
+            <td>
+              :
+              <input type="text" name="graduation_year" id="graduation_year" />
+            </td>
+          </tr>
+          <tr>
+            <td>Home Phone Number</td>
+            <td>: <input type="tel" name="homephone" id="homephone" /></td>
+          </tr>
+          <tr>
+            <td>Education</td>
+            <td>
+              :<select>
+                <option value="elementary">Elementary</option>
+                <option value="junior">Junior High School</option>
+                <option value="senior">Senior High School</option>
+                <option value="diploma">Diploma</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option value="doctor">Doctor</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
       <p>
-        <input type="checkbox" name="state" id="state" />I herbey state that all
+        <input type="checkbox" name="state" id="state" />I hereby state that all
         information on this New Student Registration Form are complete and
         true.<br />All contents on this form I submitted to Universitas Klabat
         and Universitas Klabat are not oblidge to return it.
