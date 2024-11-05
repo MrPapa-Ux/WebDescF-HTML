@@ -1,0 +1,55 @@
+/* Reset margin dan padding untuk seluruh elemen */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Container grid */
+#layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 80vw;
+  height: 80vh;
+}
+
+/* Warna background untuk setiap elemen grid */
+#one {
+  background-color: #ffcccb; /* Light Red */
+}
+
+#two {
+  background-color: #add8e6; /* Light Blue */
+}
+
+#three {
+  background-color: #90ee90; /* Light Green */
+}
+
+#four {
+  background-color: #ffa07a; /* Light Salmon */
+}
+
+#five {
+  background-color: #d3d3d3; /* Light Gray */
+}
+
+/* Tambahkan style pada elemen grid */
+#layout > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  border-radius: 8px;
+}
