@@ -82,3 +82,19 @@ a:active {
 .navigation-primary a:hover {
   background-color: green;
 }
+
+.navigation-primary a:focus {
+  background-color: #000;
+  outline: none;
+}
+
+.navigation-primary a:active {
+  background: red;
+}
+
+.content-container {
+  padding: 2em;
+  background: #fff;
+  min-height: 0;
+  display: inline-block;
+}
