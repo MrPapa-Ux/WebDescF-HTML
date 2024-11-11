@@ -69,3 +69,16 @@ a:active {
 .navigation-primary li {
   display: inline;
 }
+
+.navigation-primary a {
+  float: left;
+  padding: 0.5em 1em;
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+
+.navigation-primary a:hover {
+  background-color: green;
+}
