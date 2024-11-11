@@ -98,3 +98,28 @@ a:active {
   min-height: 0;
   display: inline-block;
 }
+
+.navigation-secondary {
+  margin-bottom: 2em;
+}
+
+.navigation-secondary ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content-main {
+  margin-bottom: 2em;
+}
+
+.content-aside h3,
+.navigation-secondary h3 {
+  margin-top: 0;
+}
+
+.footer-primary {
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+}
